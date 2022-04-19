@@ -1,4 +1,3 @@
-import com.sun.security.jgss.GSSUtil;
 
 import java.util.Scanner;
 
@@ -15,7 +14,7 @@ public class Main {
 
          System.out.println("Ваше число однозначное");
 
-         if (number > 0) {
+         if (number >= 0) {
 
             System.out.println("Ваше число положительное");
          }
