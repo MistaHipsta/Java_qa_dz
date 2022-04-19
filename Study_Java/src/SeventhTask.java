@@ -12,7 +12,7 @@ public class SeventhTask {
             day+=dayX;//день с процентов сумма
             sum+=day;//сумма всех дней с процентом
 
-       }System.out.println(sum+10);
+       }System.out.println("Всего за все дни: "+sum+10);
 
 
     }
