@@ -14,9 +14,12 @@ public class FirstTask {
 
          System.out.println("Ваше число однозначное");
 
-         if (number >= 0) {
+         if (number > 0) {
 
             System.out.println("Ваше число положительное");
+         }
+         else if (number==0){
+             System.out.println("0 не положительно и не отрицательное");
          }
          else {
             System.out.println("Ваше число отрицательное");
