@@ -4,7 +4,7 @@ class   eithTask {
         int amebaA = 1;
         for(int i =3; i <=24; i+=3){
             amebaA = amebaA*2;
-            System.out.println(amebaA);
-        }
+
+        }System.out.println(amebaA);
     }
 }
