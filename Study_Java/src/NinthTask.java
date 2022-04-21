@@ -1,4 +1,4 @@
-class   ninethTask {
+class NinthTask {
     public static void  main (String[] args){
         int numberA = 1;
         int numberB = 0;
