@@ -34,8 +34,10 @@ public class Task5 {
 
         if (srednee>srednee2){
             System.out.println("Среднее значение для первого массива больше");
-        }else {
+        }else if (srednee<srednee2){
             System.out.println("Среднее значение для второго массива больше");
+        }else {
+            System.out.println("Среднее значение для двух массивов равны");
         }
 
     }
