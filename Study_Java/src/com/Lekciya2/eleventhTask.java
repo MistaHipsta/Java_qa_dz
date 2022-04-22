@@ -1,3 +1,5 @@
+package com.Lekciya2;
+
 class   eleventhTask {
     public static void  main (String[] args){
         int numberA = 1;

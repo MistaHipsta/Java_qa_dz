@@ -1,6 +1,8 @@
+package com.Lekciya2;
+
 import java.util.Scanner;
 
-public class FifthTask {
+public class fourthTask {
     public static void main(String[] args) {
 
         System.out.println("Введите ваше число \"A\": ");
@@ -18,16 +20,16 @@ public class FifthTask {
         scanner = new Scanner(System.in);
         int numberC = scanner.nextInt();
         int numberD = 0;
-        if (numberA<0){
+if (numberA>0){
+    numberD++;
+}
+        if (numberB>0){
             numberD++;
         }
-        if (numberB<0){
+        if (numberC>0){
             numberD++;
         }
-        if (numberC<0){
-            numberD++;
-        }
-        System.out.print("Отрицательных чисел:");
+        System.out.print("Положительных чисел:");
         System.out.println(numberD);
-    }
+}
 }

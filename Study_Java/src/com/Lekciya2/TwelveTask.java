@@ -1,3 +1,5 @@
+package com.Lekciya2;
+
 class TwelveTask {
     public static void main(String[] args) {
         int i = 3;

@@ -1,3 +1,5 @@
+package com.Lekciya2;
+
 import java.util.Scanner;
 
 public class SeventhTask {

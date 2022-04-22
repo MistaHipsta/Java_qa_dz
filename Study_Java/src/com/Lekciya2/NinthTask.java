@@ -1,3 +1,5 @@
+package com.Lekciya2;
+
 class NinthTask {
     public static void  main (String[] args){
         int numberA = 1;
