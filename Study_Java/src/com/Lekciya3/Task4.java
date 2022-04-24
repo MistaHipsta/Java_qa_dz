@@ -9,9 +9,9 @@ public class Task4 {
         int x = 0;
         for (int i = 0; i < masiv1.length; i++) {
 
-            masiv1[x] = random.nextInt(20);//назначаем рандоомное значение в ячейку х
+            masiv1[x] = random.nextInt(20);
             System.out.print(masiv1[x] + " ");
-            x++;//переходим в следующую ячейку
+            x++;
         }
         System.out.println();
         for (int w = 0; w <20; w++) {

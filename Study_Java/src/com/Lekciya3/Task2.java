@@ -17,7 +17,7 @@ public class Task2 {
         }
         System.out.println();
         for (int p = masive1.length-1; p >= 0; --p) {
-            System.out.print(masive1[p]+" "); //для удобства чтения добавил пробел
+            System.out.print(masive1[p]+" ");
         }
     }
 }

@@ -18,7 +18,7 @@ public class Task5 {
         }
         System.out.println();
         int srednee = summa1 / 5;
-        System.out.println("Srednee " + srednee);
+        System.out.println("Среднее арифметическое первого массива " + srednee);
         System.out.println();
 
         int summa2 = 0;
@@ -29,15 +29,15 @@ public class Task5 {
         }
         System.out.println();
         int srednee2 = summa2 / 5;
-        System.out.println("Srednee " + srednee2);
+        System.out.println("Среднее арифметическое второго массива " + srednee2);
         System.out.println();
 
         if (srednee>srednee2){
-            System.out.println("Среднее значение для первого массива больше");
+            System.out.println("Среднее арифметическое значение для первого массива больше");
         }else if (srednee<srednee2){
-            System.out.println("Среднее значение для второго массива больше");
+            System.out.println("Среднее арифметическое значение для второго массива больше");
         }else {
-            System.out.println("Среднее значение для двух массивов равны");
+            System.out.println("Средние арифметические значения для двух массивов равны");
         }
 
     }

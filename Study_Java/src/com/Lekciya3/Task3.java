@@ -9,7 +9,7 @@ public class Task3 {
         int x = 0;
         for (int i = 0; i < masive1.length; i++) {
 
-            masive1[x] = random.nextInt(99);//назначаем рандоомное значение в ячейку х
+            masive1[x] = random.nextInt(99);
             System.out.print(masive1[x] + " ");
             x++;//переходим в следующую ячейку
         }
