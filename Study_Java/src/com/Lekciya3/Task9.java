@@ -7,12 +7,12 @@ public class Task9 {
 
     public static void main(String[] args) {
 
-        System.out.println("Введите ваше положительное число,которое будет > 1: ");
+        System.out.println("Введите ваше положительное, четное число: ");
         Scanner scanner = new Scanner(System.in);
         int userNumber = scanner.nextInt();
-            for (; userNumber <=1; ) {
-                System.out.println("Нужно ввести положительное: ");
-                System.out.println("Введите ваше положительное число,которое будет > 1: ");
+            for (; userNumber <=1 || userNumber%2>0; ) {
+                System.out.println("Нужно ввести положительное и четное: ");
+                System.out.println("Введите ваше положительное, четное число: ");
                 userNumber = scanner.nextInt();
 
             }
