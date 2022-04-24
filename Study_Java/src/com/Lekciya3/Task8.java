@@ -35,7 +35,7 @@ public class Task8 {
         for (int i = 0; i < masiv3.length; i++) {
             if (masiv3[i] % 1 == 0) {
                 System.out.print(masiv3[i] + " ");
-            summaCelih= (int) (summaCelih+masiv3[i]);
+            summaCelih++;
             }
 
         }
