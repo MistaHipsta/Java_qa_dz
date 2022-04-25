@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Task5 {
     public static void main(String[] args) {
-        int[] masiv1 = new int[5];
-        int[] masiv2 = new int[5];
+        int[] masiv1 = new int[10];
+        int[] masiv2 = new int[10];
         Random random = new Random();
 
         int summa1 = 0;
@@ -18,7 +18,7 @@ public class Task5 {
         }
         System.out.println();
         int srednee = summa1 / 5;
-        System.out.println("Среднее арифметическое первого массива " + srednee);
+        System.out.println("Среднее арифметическое первого массива " + (double)srednee);
         System.out.println();
 
         int summa2 = 0;
@@ -29,7 +29,7 @@ public class Task5 {
         }
         System.out.println();
         int srednee2 = summa2 / 5;
-        System.out.println("Среднее арифметическое второго массива " + srednee2);
+        System.out.println("Среднее арифметическое второго массива " + (double)srednee2);
         System.out.println();
 
         if (srednee>srednee2){
