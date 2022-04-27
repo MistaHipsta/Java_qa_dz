@@ -8,8 +8,8 @@ public class Task5 {
         int[] masiv2 = new int[10];
         Random random = new Random();
 
-        int summa1 = 0;
-        int kolichestvo = 0;
+        double summa1 = 0;
+        double kolichestvo = 0;
         for (int i = 0; i < masiv1.length; i++) {
             masiv1[i] = random.nextInt(15);
             System.out.print(masiv1[i] + " ");
@@ -22,8 +22,8 @@ public class Task5 {
         System.out.println("Среднее арифметическое первого массива " + srednee);
         System.out.println();
 
-        int summa2 = 0;
-        int kolichestvo2 = 0;
+        double summa2 = 0;
+        double kolichestvo2 = 0;
         for (int i = 0; i < masiv2.length; i++) {
             masiv2[i] = random.nextInt(15);
             System.out.print(masiv2[i] + " ");
