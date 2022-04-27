@@ -9,8 +9,8 @@ public class Task4 {
         int x = 0;
         for (int i = 0; i < masiv1.length; i++) {
 
-            masiv1[x] = random.nextInt(20);
-            System.out.print(masiv1[x] + " ");
+            masiv1[i] = random.nextInt(20);
+            System.out.print(masiv1[i] + " ");
             x++;
         }
         System.out.println();

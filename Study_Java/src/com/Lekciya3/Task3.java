@@ -6,12 +6,12 @@ public class Task3 {
     public static void main(String[] args) {
         Random random = new Random();
         int[] masive1 = new int[15];
-        int x = 0;
+        /*int x = 0;*/
         for (int i = 0; i < masive1.length; i++) {
 
-            masive1[x] = random.nextInt(99);
-            System.out.print(masive1[x] + " ");
-            x++;//переходим в следующую ячейку
+            masive1[i] = random.nextInt(99);
+            System.out.print(masive1[i] + " ");
+            /*x++;//переходим в следующую ячейку*/
         }
         System.out.println();
 

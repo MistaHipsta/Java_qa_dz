@@ -22,10 +22,10 @@ public class Task8 {
         System.out.println();
         System.out.print("Третий массив ");
         double chastnoe = 0;
-        int index = 0;
+        /*int index = 0;*/
         for (int i = 0; i < masiv1.length; i++) {
             chastnoe = (double) masiv1[i] / (double) masiv2[i];
-            index = i;
+            /*index = i;*/
             masiv3[i] = (float) chastnoe;
             System.out.print(masiv3[i] + " ");
 

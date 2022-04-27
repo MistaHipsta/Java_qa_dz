@@ -18,11 +18,11 @@ public class Task6 {
                 peremen = true;
             }
         }
-        if (peremen == true) {
+        if (peremen) {
             System.out.println("Последовательность не возрастающая");
 
-        }
-        if (peremen == false) {
+        }else
+        {
             System.out.println("Последовательность строго возрастающая");
 
         }
