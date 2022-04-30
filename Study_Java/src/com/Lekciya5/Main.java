@@ -1,22 +1,13 @@
 package com.Lekciya5;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         Kompukter kompukter = new Kompukter();
 
-        kompukter.hdd=5;
-        kompukter.off=100;
-        kompukter.on=100;
-        kompukter.proc="Intel";
-        kompukter.ram=4;
-        kompukter.rabotaet=true;
-
-        System.out.println(kompukter.hdd);
-        System.out.println(kompukter.off);
-        System.out.println(kompukter.on);
-        System.out.println(kompukter.proc);
-        System.out.println(kompukter.ram);
-        System.out.println(kompukter.rabotaet);
-
+        kompukter.onPc(scanner);
+        kompukter.offPc(scanner);
     }
 }
