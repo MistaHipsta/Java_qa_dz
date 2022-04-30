@@ -26,19 +26,25 @@ public class Task5 {
                 }
             }
             System.out.println();
-
-        }System.out.println();
+        }
+        System.out.println();
 
         for (int i = 0; i < masiv.length; i++) {
+            for (int j = i + 1; j < masiv.length; j++) {
+                int vremen = masiv[i][j];
+                masiv[i][j] = masiv[j][i];
+                masiv[j][i] = vremen;
+            }
+        }
+        for (int i = 0; i < masiv.length; i++) {
             for (int j = 0; j < masiv.length; j++) {
-                if (1==1){
-                    masiv[i][j]=masiv[j][i];
+                if (masiv[i][j] < 10) {
+                    System.out.print(masiv[i][j] + "   ");
+                } else {
                     System.out.print(masiv[i][j] + "  ");
                 }
-
-            }System.out.println();
-
+            }
+            System.out.println();
         }
-
     }
 }
