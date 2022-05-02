@@ -9,31 +9,15 @@ public class Kompukter {
     String proc;
     int ram;
     int hdd;
-    int on;
+    int resurs = 5;
     int off;
     public static int schetchikRaboti = 0;
 
 
-    public String getProc() {
-        return proc;
-    }
+    public void pcInfo() {
+        System.out.println("Информация о ваше ПК: Процессор: " + proc + " Оперативка: " + ram + "Гб" +" Ваш жесткий диск: " + hdd + "Тб");
 
-    public int getRam() {
-        return ram;
     }
-
-    public int getHdd() {
-        return hdd;
-    }
-
-    public int getOn() {
-        return on;
-    }
-
-    public int getOff() {
-        return off;
-    }
-
 
     public void onPc(Scanner scanner) {
         System.out.println("Выберите и введите число для включения 0 или 1:");
@@ -46,14 +30,15 @@ public class Kompukter {
             chislo = scanner.nextInt();
             schetchikRaboti++;
         }
-            if (chislo == randomChislo || schetchikRaboti == 5) {
-                System.out.println("Твой ПК сгорел");
-                System.exit(0);
-            } else {
-                System.out.println("Твой ПК включился удачно");
-            }
-
+        if (chislo == randomChislo || schetchikRaboti == resurs) {
+            System.out.println("Твой ПК сгорел");
+            System.exit(0);
+        } else {
+            System.out.println("Твой ПК включился удачно");
+            schetchikRaboti++;
         }
+
+    }
 
 
     public void offPc(Scanner scanner) {
@@ -65,11 +50,12 @@ public class Kompukter {
             chislo = scanner.nextInt();
             schetchikRaboti++;
         }
-        if (chislo == randomChislo||schetchikRaboti==5) {
+        if (chislo == randomChislo || schetchikRaboti == 5) {
             System.out.println("Твой ПК сгорел");
             System.exit(0);
         } else {
             System.out.println("Твой ПК выключился удачно");
+            schetchikRaboti++;
         }
     }
 }
