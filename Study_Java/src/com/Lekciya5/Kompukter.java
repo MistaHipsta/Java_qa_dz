@@ -24,13 +24,13 @@ public class Kompukter {
 
         scanner = new Scanner(System.in);
         int chislo = scanner.nextInt();
-        int randomChislo = random.nextInt(0, 1);
+        int randomChislo = random.nextInt( 2);
         for (; chislo > 1; ) {
             System.out.println("Нужно выбрать между 0 и 1, затем ввести его: ");
             chislo = scanner.nextInt();
             schetchikRaboti++;
         }
-        if (chislo == randomChislo || schetchikRaboti == resurs) {
+        if (chislo != randomChislo || schetchikRaboti == resurs) {
             System.out.println("Твой ПК сгорел");
             System.exit(0);
         } else {
@@ -44,13 +44,13 @@ public class Kompukter {
     public void offPc(Scanner scanner) {
         System.out.println("Выберите и введите число для выключения 0 или 1:");
         int chislo = scanner.nextInt();
-        int randomChislo = random.nextInt(1);
+        int randomChislo = random.nextInt(2);
         for (; chislo > 1; ) {
             System.out.println("Нужно выбрать между 0 и 1, затем ввести его: ");
             chislo = scanner.nextInt();
             schetchikRaboti++;
         }
-        if (chislo == randomChislo || schetchikRaboti == 5) {
+        if (chislo != randomChislo || schetchikRaboti == 5) {
             System.out.println("Твой ПК сгорел");
             System.exit(0);
         } else {
